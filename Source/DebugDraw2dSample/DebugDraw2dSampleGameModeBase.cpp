@@ -51,19 +51,6 @@ void ADebugDraw2dSampleGameModeBase::Draw(UCanvas* InCanvas, APlayerController* 
 		return;
 	}
 
-	//UWorld* world = this->GetWorld();
-	//if (!world)
-	//{
-	//	return;
-	//}
-	//if (world == InCanvas->Canvas->GetScene()->GetWorld())
-	//{// このActorのワールド.
-	//}
-	//else
-	//{// Editorのウィンドウなら何もしない.
-	//	return;
-	//}
-
 	auto pc = InPC;
 	if (pc == nullptr)
 	{

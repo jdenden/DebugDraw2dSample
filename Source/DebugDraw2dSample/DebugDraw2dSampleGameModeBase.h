@@ -21,7 +21,7 @@ protected:
 	virtual void BeginDestroy() override;
 
 public:
-	void Draw(UCanvas* InCanvas, APlayerController* PC);
+	void Draw(UCanvas* InCanvas, APlayerController* InPC);
 
 private:
 	FDelegateHandle			DrawDebugDelegateHandle;
